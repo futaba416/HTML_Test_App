@@ -1,0 +1,116 @@
+/*-------------------------------------------
+	共通部分
+  -------------------------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+/*-------------------------------------------
+  ページ全体
+  -------------------------------------------*/
+.page-wrapper {
+  width: 100%;
+  padding: 0 40px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/*-------------------------------------------
+  メインコンテンツ
+  -------------------------------------------*/
+.main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
+
+/*-------------------------------------------
+  ヘッダー
+  -------------------------------------------*/
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 40px;
+  width: 100%;
+}
+
+/*-------------------------------------------
+  セクション 共通部分
+  -------------------------------------------*/
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.section-title {
+  border-bottom: solid 1px #383e45;
+}
+
+/* -------------------------------------------
+  プロフィール
+  -------------------------------------------*/
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.profile-image {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+/* -------------------------------------------
+  写真
+  -------------------------------------------*/
+.Gallerys {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px 16px;
+  border-radius: 16px;
+}
+
+.Gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border-radius: 16px;
+}
+
+.Gallery-image {
+  width: 80%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/*-------------------------------------------
+  フッター
+  -------------------------------------------*/
+.footer {
+  font-size: small;
+  padding: 40px 0;
+  text-align: center;
+}
